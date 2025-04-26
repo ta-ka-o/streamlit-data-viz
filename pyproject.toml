@@ -1,0 +1,25 @@
+[project]
+name = "bayes-streamlit-test"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "髙尾悠介",email = "ytak323gamba@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "scipy (==1.11.4)",
+    "numpyro (==0.13.2)",
+    "jax (==0.4.33)",
+    "jaxlib (==0.4.33)",
+    "japanize-matplotlib (==1.1.3)",
+    "dill (==0.3.7)",
+    "pandas (==2.2.2)",
+    "scikit-learn (==1.5.0)",
+    "streamlit (>=1.44.1,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

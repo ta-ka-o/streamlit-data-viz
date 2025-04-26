@@ -1,0 +1,12 @@
+# Ignore Python cache and virtualenvs
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Poetry virtual environment (optional if outside project)
+.env/
+.venv/
+
+# Mac系
+.DS_Store

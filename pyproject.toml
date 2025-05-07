@@ -16,9 +16,14 @@ dependencies = [
     "dill (==0.3.7)",
     "pandas (==2.2.2)",
     "scikit-learn (==1.5.0)",
-    "streamlit (>=1.44.1,<2.0.0)"
+    "streamlit (>=1.44.1,<2.0.0)",
+    "pymc",
+    "arviz",
+    "seaborn"
 ]
 
+[tool.poetry]
+package-mode = false
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
